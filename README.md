@@ -1,9 +1,11 @@
 LAB5
 Instrucciones
 Objetivos:
+
 • Resolver problemas de logica matematica utilizando Javascript.
 • Utilizar controles de flujo, ciclos y dema s herramientas ba sicas del lenguaje Javascript.
 • Implementar patro n de disen o basado en mo dulos
+
 I. Replicar funcionalidad del laboratorio #4
 
 1. Crea una pa gina web que permita ingresar un nu mero arbitrario de notas de un
