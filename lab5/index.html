@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab5 - Keneric Vasquez</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="title_item">Lab5 - Keneric Vasquez</div>
+    </nav>
+
+    <nav class="sidebar">
+        <form>
+            <div class="menu_content">
+                <div class="menu_title">Nueva Nota</div>
+                <input type="number" class="input_grade" id="input_grade" min="0" max="100" required>
+                <button class="btn_add_grade">Agregar +</button>
+                <button class="btn_delete_grade" hidden>Eliminar Notas -</button>
+            </div>
+        </form>
+    </nav>
+
+    <div class="section_general">
+        <div class="section_grades">
+            <h3>Notas del Estudiante</h3>
+
+            <div id="list_grades"></div>
+        </div>
+        <div class="section_graphics">
+            <div class="container_graphic">
+                <div class="circular-progress">
+                    <span class="progress-value">0%</span>
+                </div>
+
+                    <span>Promedio</span>
+                        <div>
+                            <span id="my_average">0</span><span> / 100</span>
+                        </div>
+                        <span id="my_grade">-</span>    
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
